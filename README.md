@@ -48,6 +48,16 @@ The purpose of this repository is to:
 - Build projects while following the course
 - Use Git and GitHub throughout my learning journey
 
+## Repository Status
+
+This repository is currently under development and will be updated regularly as I progress through the course.
+
+## Disclaimer
+
+This repository contains my personal notes, practice code, and projects created while following the course.
+
+It does not contain or redistribute the course's paid videos or copyrighted course materials.
+
 ## Course Link
 
 [Complete Web Development Course by Hitesh Choudhary](https://www.udemy.com/course/web-dev-master/)
