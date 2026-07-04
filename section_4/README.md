@@ -1,9 +1,11 @@
 # This section contain:
 
-- Embedding an image.
-- Writing in the form of list.
-- linking to another page.
-- paragraph writing.
+- image `<img>`.
+- list `<ol>`, `<ul>`, `<li>`.
+- link `<a>`.
+- paragraph `<p>`.
+- table `<table>`, `<th>`, `<td>`, `<tr>`.
+- form `<form>`, `<table>`, `<input>`.
 
 In this section there is a topic about **Block level element** and and **inline level element**.
 Element means a _tag_ which has content in it is know as element.
@@ -14,8 +16,8 @@ An element which occupies all the area in which line in is written (from left to
 
 **Examples:**
 
-- `<p>`(paragraph tag).
-- `<h1>`upto `<h6>` (heading tags) etc.
+- `<p>` (paragraph tag).
+- `<h1>` upto `<h6>` (heading tags) etc.
 
 ### Inline level element:
 
