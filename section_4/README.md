@@ -7,6 +7,10 @@
 - table `<table>`, `<th>`, `<td>`, `<tr>`.
 - form `<form>`, `<table>`, `<input>`.
 - iframe `<iframe>`.
+- time `<time>`.
+- hgroug `<hgroug>`.
+- nav `<nav>`.
+- section `<section>`.
 
 In this section there is a topic about **Block level element** and and **inline level element**.
 Element means a _tag_ which has content in it is know as element.
