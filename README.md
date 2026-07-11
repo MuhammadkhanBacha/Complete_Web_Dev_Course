@@ -23,17 +23,14 @@ Example structure:
 ```text
 complete-web-development/
 │
-├── 01-html/
-│   ├── index.html
+├── Section 1
 │   └── README.md
-│
-├── 02-css/
-│   ├── style.css
+├── Section 2
 │   └── README.md
-│
-├── 03-javascript/
-│   ├── script.js
-│   └── README.md
+├── Section 3
+│   └── ...
+├── ...
+└── Section 36
 │
 └── README.md
 ```
