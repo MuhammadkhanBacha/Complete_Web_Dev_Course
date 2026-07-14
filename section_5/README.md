@@ -26,3 +26,13 @@ There are 12 types of selectors as below:
 10. Pseudo-class selector. It is selected as `a:hover`.
 11. Pseudo-element selector. It is selected as `p::firstletter`.
 12. Grouping selector. It is selected as `h1, h2, h3`.
+
+### Box Model:
+
+There are are two type of it.
+
+- `box-sizing:content-border`.
+- `box-sizing:border-box`.
+
+There is also block and inline element which we have discussed in section 4. We can change block into inline element and vice versa.  
+To do it use `display:inline` for inline element **or** `display:block` for block element.
