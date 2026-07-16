@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation-Bar-horizontally</title>
+
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #1a1a1a;
+        margin: 0;
+      }
+      .nav-1 {
+        background-color: #efeaea;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+      }
+      .nav-1 li {
+        display: inline;
+      }
+      .nav-1 button {
+        background-color: #4e68ea;
+        color: #efeaea;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .nav-1 a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+      }
+      .nav-1 a::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background-color: #4e68ea;
+        transform: scaleX(0);
+        transition: transform 0.2s ease-in-out;
+      }
+      .nav-1 a:hover::after {
+        transform: scaleX(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav-contianer">
+      <ul class="nav-1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Product</a></li>
+        <button>Login</button>
+      </ul>
+    </div>
+  </body>
+</html>
